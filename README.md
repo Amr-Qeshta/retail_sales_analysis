@@ -40,8 +40,15 @@ Usage Instructions:
 2. Figures will be saved automatically in the `retail_sales_figures` directory.
 3. Review the Word or PDF report for full narrative analysis and recommendations.
 
+Dataset
+-------
+This project uses the Retail Sales Dataset from Kaggle:
+https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset/data
+
+
 Author / Contact:
 -----------------
 Prepared by: Amr Qeshta  
 Date of Completion: February 7th, 2026
+
 
