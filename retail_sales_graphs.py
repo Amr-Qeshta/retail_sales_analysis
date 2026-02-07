@@ -175,12 +175,10 @@ def gen_total_sales(gender, category):
     plt.title(f"Percentage Distribution of {gender} Purchases in {category} Category", weight="bold", pad=10, fontsize=16, color="#243328")
     plt.savefig(f"S:\\Programming\\retail_sales_dataset\\retail_sales_figures\\demographic\\{gender}_{category}_distribution.png", bbox_inches="tight", dpi=300)
 
+#examples, note that it accesses retail_sales_analysis.py file to call the get_gender_sales function, unpacking the return for this function
 prod_qrt_gen_sales(*rsa.get_gender_sales("male"))
 prod_qrt_gen_sales(*rsa.get_gender_sales("female"))
 
+#examples
 gen_total_sales("male", "beauty")
-gen_total_sales("male", "clothing")
-gen_total_sales("male", "electronics")
 gen_total_sales("female", "beauty")
-gen_total_sales("female", "clothing")
-gen_total_sales("female", "electronics")
